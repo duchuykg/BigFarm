@@ -46,9 +46,12 @@ View: Represents the presentation layer of the application.
 Controller: Acts as an intermediary between the Model and the View, and handles user input and updates the Model and View accordingly.
 In our project, we have implemented the MVC model as follows:
 
-Model: Contains the data and the business logic of the application. It is located in the models/ directory.
-View: Contains the presentation layer of the application. It is located in the views/ directory.
-Controller: Acts as an intermediary between the Model and the View, and handles user input and updates the Model and View accordingly. It is located in the controllers/ directory.
+**Model:** Contains the data and the business logic of the application. It is located in the models/ directory.
+
+**View:** Contains the presentation layer of the application. It is located in the views/ directory.
+
+**Controller:** Acts as an intermediary between the Model and the View, and handles user input and updates the Model and View accordingly. It is located in the controllers/ directory.
+
 The routes/ directory contains the routes that map to the different actions that the user can perform in the application. The app.js file is the main file of the application, and it sets up the server and the middleware. The package.json file contains the dependencies and scripts used in the project.
 
 ## Contact
